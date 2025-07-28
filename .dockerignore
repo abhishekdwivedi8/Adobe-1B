@@ -1,0 +1,62 @@
+# Git and version control
+.git
+.gitignore
+*.git*
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs (will be created in container)
+logs/*.log
+
+# Documentation and development files
+*.md
+SYSTEM_OVERVIEW.md
+FINAL_ENHANCED_SYSTEM.md
+
+# Test files
+test_*.py
+*_test.py
+
+# Backup files
+*.bak
+*.backup
